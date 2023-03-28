@@ -75,7 +75,7 @@ public class Script
 		///	engine.GenerateInformation(element.Name);rewrewrwe
 		///}test
 		///
-		engine.generatenjnjn
+		engine.generate
 		var order = OrderFactory.CreateOrder("Beer");
 		order.Dispatch("JPB");
 	}
