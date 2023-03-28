@@ -53,6 +53,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
+using Empower.Library.Room3;
 using Skyline.DataMiner.Automation;
 using Skyline.DataMiner.Core.DataMinerSystem.Automation;
 
@@ -67,11 +68,15 @@ public class Script
 	/// <param name="engine">Link with SLAutomation process.</param>
 	public void Run(Engine engine)
 	{
-		var myDMS = engine.GetDms();
-		var elements = myDMS.GetElements();
-		foreach (var element in elements)
-		{
-			engine.GenerateInformation(element.Name);
-		}
+		///var myDMS = engine.GetDms();
+		///var elements = myDMS.GetElements();
+		///foreach (var element in elements)
+		///{
+		///	engine.GenerateInformation(element.Name);rewrewrwe
+		///}test
+		///
+		engine.generatenjnjn
+		var order = OrderFactory.CreateOrder("Beer");
+		order.Dispatch("JPB");
 	}
 }
